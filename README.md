@@ -64,64 +64,41 @@ It then counts failed login attempts associated with each IP address.
 
 The program currently flags an IP address when it has **three or more failed login attempts**.
 
-## 🔎 Example Finding
+## 🔎 Analysis Finding
 
-The sample log contains repeated failed login attempts from:
+After running the Python analyzer against the fictional authentication log, the program identified repeated failed login attempts associated with:
 
-```text
-192.168.1.10
-```
+**IP address:** `192.168.1.10`
 
-The program identifies this IP address as potentially suspicious because it generates multiple failed authentication attempts.
+The IP address generated multiple failed authentication attempts and was therefore flagged by the program for further investigation.
 
-This does **not** automatically mean that the activity is malicious. In a real security investigation, an analyst would examine additional information and context before determining whether the activity represents an attack.
+### Analyst Interpretation
 
-## 🛡️ Cybersecurity Relevance
+The repeated failed attempts may indicate:
 
-Authentication logs can provide useful information when investigating suspicious activity.
-
-Repeated failed login attempts may indicate situations such as:
-
-* Incorrect passwords
-* User account problems
-* Forgotten credentials
+* Incorrect or forgotten credentials
+* A user experiencing authentication problems
 * Automated login attempts
 * Password-guessing activity
-* Brute-force attempts
+* A possible brute-force attempt
 
-Security analysts should investigate the surrounding context before making a conclusion.
+However, the activity should **not** automatically be classified as malicious based only on these log entries.
 
-## 📚 What I Learned
+A real security analyst would investigate additional information, such as:
 
-Through this project, I practiced:
+* Whether the IP address belongs to an authorized user
+* The affected account
+* The time pattern of the attempts
+* Other events occurring around the same time
+* Network and system logs
+* Whether successful authentication occurred after the failed attempts
 
-* Reading files with Python
-* Processing information line by line
-* Splitting strings into useful data
-* Using lists to store information
-* Creating and using functions
-* Using conditional statements
-* Counting repeated events
-* Identifying potentially suspicious patterns
-* Connecting Python programming with cybersecurity analysis
+### Conclusion
 
-## 🚀 Future Improvements
+The analysis successfully demonstrated how Python can be used to process authentication logs and identify patterns that may require further security investigation.
 
-I plan to improve this project by adding:
+This project strengthened my practical understanding of **log analysis, authentication monitoring, Python automation, and security investigation**.
 
-* Detection of repeated failed attempts within a specific time period
-* Username-based analysis
-* More detailed event classification
-* Automatic security alerts
-* CSV report generation
-* Visualization of authentication activity
-* Detection of additional suspicious patterns
-
-## ⚠️ Security Note
-
-The log file included in this repository contains **fictional data created for educational purposes**.
-
-No real authentication logs, credentials, passwords, or sensitive information are included.
 
 ---
 
@@ -129,4 +106,5 @@ No real authentication logs, credentials, passwords, or sensitive information ar
 **GitHub:** [@mthokozisi90](https://github.com/mthokozisi90)
 
 ⭐ Part of my ongoing journey into IT Support and Cybersecurity.
+
 
