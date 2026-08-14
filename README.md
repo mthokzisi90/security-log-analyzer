@@ -37,7 +37,19 @@ security-log-analyzer
 ├── sample_auth.log
 └── log_analyzer.py
 ```
+## ▶️ How to Run
 
+### Requirements
+
+- Python 3.x
+- No external Python packages are required.
+
+### Steps
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/mthokozisi90/security-log-analyzer.git
 ### `sample_auth.log`
 
 A fictional authentication log created specifically for this educational project.
