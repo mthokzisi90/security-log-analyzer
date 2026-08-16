@@ -49,7 +49,7 @@ security-log-analyzer
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/mthokozisi90/security-log-analyzer.git
+git clone https://github.com/mthokzisi90/security-log-analyzer.git
 ### `sample_auth.log`
 
 A fictional authentication log created specifically for this educational project.
@@ -140,7 +140,7 @@ This project strengthened my practical understanding of **log analysis, authenti
 ---
 
 **Author:** Mthokozisi Khulu
-**GitHub:** [@mthokozisi90](https://github.com/mthokzisi90)
+**GitHub:** [@mthokzisi90](https://github.com/mthokzisi90)
 
 ⭐ Part of my ongoing journey into IT Support and Cybersecurity.
 
