@@ -140,7 +140,7 @@ This project strengthened my practical understanding of **log analysis, authenti
 ---
 
 **Author:** Mthokozisi Khulu
-**GitHub:** [@mthokozisi90](https://github.com/mthokozisi90)
+**GitHub:** [@mthokozisi90](https://github.com/mthokzisi90)
 
 ⭐ Part of my ongoing journey into IT Support and Cybersecurity.
 
