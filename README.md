@@ -4,7 +4,7 @@
 
 This project is a beginner-friendly Python security log analyzer that examines a fictional authentication log and identifies repeated failed login attempts.
 
-The project was created as part of my cybersecurity learning journey to practice **Python, log analysis, and security investigation concepts**.
+The project was created as part of my cybersecurity learning journey to practice **Python, log analysis, and security investigation concepts*.
 
 ## 🎯 Project Objectives
 
