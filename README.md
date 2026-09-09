@@ -139,6 +139,18 @@ This project strengthened my practical understanding of **log analysis, authenti
 
 ---
 
+## Project Screenshots
+
+### Security Log Analyzer Output
+
+![Security Log Analyzer Output](log analyzer screenshot.png)
+
+### Log Analysis Results
+
+![Log Analysis Results](log analyzer screenshot 2.png)
+
+![Log Analysis Results](log analyzer screenshot 3.png)
+
 **Author:** Mthokozisi Khulu
 **GitHub:** [@mthokzisi90](https://github.com/mthokzisi90)
 
